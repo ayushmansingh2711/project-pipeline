@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', poll: false, url: 'https://github.com/ayushmansingh2711/AI-chat-bot-docker-jenkins1'
+                git branch: 'main', poll: false, url: 'https://github.com/ayushmansingh2711/project-pipeline.git'
             }
         }
 
